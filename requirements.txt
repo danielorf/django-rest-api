@@ -1,0 +1,4 @@
+certifi==2018.1.18
+Django==1.11
+djangorestframework==3.6.2
+pytz==2018.3
