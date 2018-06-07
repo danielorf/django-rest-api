@@ -1,15 +1,11 @@
-"""
-Docstring goes here
-"""
-
 from rest_framework import permissions
 
 
 class UpdateOwnProfile(permissions.BasePermission):
-    """Allow users to edit their own profile"""
+    """Allow users to edit their own profile."""
 
     def has_object_permission(self, request, view, obj):
-        """Check user is trying to edit their own profile"""
+        """Check user is trying to edit their own profile."""
 
         if request.method in permissions.SAFE_METHODS:
             return True
@@ -18,10 +14,10 @@ class UpdateOwnProfile(permissions.BasePermission):
 
 
 class PostOwnStatus(permissions.BasePermission):
-    """Allow user to update their own status"""
+    """Allow users to update their own profile."""
 
     def has_object_permission(self, request, view, obj):
-        """Checks the user is trying to update their own status"""
+        """Check the user is trying to update their own status."""
 
         if request.method in permissions.SAFE_METHODS:
             return True
