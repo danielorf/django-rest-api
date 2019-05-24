@@ -1,5 +1,5 @@
 certifi==2018.1.18
 django>=1.11.19
-djangorestframework== 3.9.1
+djangorestframework==3.9.4
 gunicorn==19.7.1
 pytz==2018.3
