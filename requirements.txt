@@ -1,4 +1,4 @@
-certifi==2018.1.18
+certifi==2022.12.7
 django>=1.11.19
 djangorestframework==3.9.4
 gunicorn==19.7.1
